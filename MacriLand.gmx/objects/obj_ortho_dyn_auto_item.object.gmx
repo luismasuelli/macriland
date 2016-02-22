@@ -89,7 +89,7 @@ collides_with = "__any__";
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="obj_collider">
+    <event eventtype="4" ename="obj_ortho_dyn_auto_orienter">
       <action>
         <libid>1</libid>
         <id>603</id>

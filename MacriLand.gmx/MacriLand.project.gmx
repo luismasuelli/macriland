@@ -164,11 +164,11 @@
       <object>objects\obj_ortho_item</object>
       <object>objects\obj_ortho_dyn_item</object>
       <object>objects\obj_ortho_dyn_auto_item</object>
-      <object>objects\obj_collider</object>
-      <object>objects\obj_collider_up</object>
-      <object>objects\obj_collider_down</object>
-      <object>objects\obj_collider_left</object>
-      <object>objects\obj_collider_right</object>
+      <object>objects\obj_ortho_dyn_auto_orienter</object>
+      <object>objects\obj_ortho_dyn_auto_orienter_up</object>
+      <object>objects\obj_ortho_dyn_auto_orienter_down</object>
+      <object>objects\obj_ortho_dyn_auto_orienter_left</object>
+      <object>objects\obj_ortho_dyn_auto_orienter_right</object>
     </objects>
     <objects name="Images">
       <object>objects\obj_Won</object>

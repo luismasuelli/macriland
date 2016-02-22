@@ -159,14 +159,14 @@
     <instance objName="obj_Reset_Button" x="0" y="352" name="inst_7C4EA8E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lives" x="608" y="64" name="inst_C6F828C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Occupier" x="32" y="352" name="inst_9A915A4B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_collider_up" x="32" y="224" name="inst_EA540FF4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_collider_up" x="512" y="224" name="inst_B16044B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_collider_down" x="224" y="96" name="inst_38AE8B10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_collider_down" x="320" y="96" name="inst_CD02A281" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_collider_left" x="224" y="224" name="inst_C305E2EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_collider_left" x="512" y="96" name="inst_7562CF54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_collider_right" x="32" y="96" name="inst_362F8AB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_collider_right" x="320" y="224" name="inst_C68D4D27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ortho_dyn_auto_orienter_up" x="32" y="224" name="inst_EA540FF4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ortho_dyn_auto_orienter_up" x="512" y="224" name="inst_B16044B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ortho_dyn_auto_orienter_down" x="224" y="96" name="inst_38AE8B10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ortho_dyn_auto_orienter_down" x="320" y="96" name="inst_CD02A281" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ortho_dyn_auto_orienter_left" x="224" y="224" name="inst_C305E2EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ortho_dyn_auto_orienter_left" x="512" y="96" name="inst_7562CF54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ortho_dyn_auto_orienter_right" x="32" y="96" name="inst_362F8AB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ortho_dyn_auto_orienter_right" x="320" y="224" name="inst_C68D4D27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Camporist" x="224" y="160" name="inst_F13269AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Camporist" x="320" y="160" name="inst_68957BCD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_level" x="608" y="96" name="inst_DEE29EE4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
