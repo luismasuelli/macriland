@@ -201,6 +201,7 @@
     <room>rooms\instructions</room>
     <room>rooms\level_1</room>
     <room>rooms\level_2</room>
+    <room>rooms\level_template</room>
     <room>rooms\game_over</room>
     <room>rooms\game_won</room>
   </rooms>
