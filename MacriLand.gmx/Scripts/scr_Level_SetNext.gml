@@ -1,0 +1,1 @@
+global.next_level = argument0;

@@ -1,0 +1,16 @@
+global.ortho_side = 32;
+global.orientations = ds_list_create();
+ds_list_add(global.orientations, "left");
+ds_list_add(global.orientations, "up");
+ds_list_add(global.orientations, "right");
+ds_list_add(global.orientations, "down");
+global.delta_x = ds_map_create();
+ds_map_add(global.delta_x, "left", -1);
+ds_map_add(global.delta_x, "up", 0);
+ds_map_add(global.delta_x, "right", 1);
+ds_map_add(global.delta_x, "down", 0);
+global.delta_y = ds_map_create();
+ds_map_add(global.delta_y, "left", 0);
+ds_map_add(global.delta_y, "up", -1);
+ds_map_add(global.delta_y, "right", 0);
+ds_map_add(global.delta_y, "down", 1);

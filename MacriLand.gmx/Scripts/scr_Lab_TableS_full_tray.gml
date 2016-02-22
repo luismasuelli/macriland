@@ -1,0 +1,1 @@
+state = "full-tray";
