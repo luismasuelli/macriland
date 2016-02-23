@@ -199,8 +199,26 @@
   <rooms name="rooms">
     <room>rooms\game_start</room>
     <room>rooms\instructions</room>
-    <room>rooms\level_1</room>
-    <room>rooms\level_2</room>
+    <room>rooms\level_01</room>
+    <room>rooms\level_02</room>
+    <room>rooms\level_03</room>
+    <room>rooms\level_04</room>
+    <room>rooms\level_05</room>
+    <room>rooms\level_06</room>
+    <room>rooms\level_07</room>
+    <room>rooms\level_08</room>
+    <room>rooms\level_09</room>
+    <room>rooms\level_10</room>
+    <room>rooms\level_11</room>
+    <room>rooms\level_12</room>
+    <room>rooms\level_13</room>
+    <room>rooms\level_14</room>
+    <room>rooms\level_15</room>
+    <room>rooms\level_16</room>
+    <room>rooms\level_17</room>
+    <room>rooms\level_18</room>
+    <room>rooms\level_19</room>
+    <room>rooms\level_20</room>
     <room>rooms\level_template</room>
     <room>rooms\game_over</room>
     <room>rooms\game_won</room>
