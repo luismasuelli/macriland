@@ -50,9 +50,9 @@ collides_with = "__any__";
       </action>
       <action>
         <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>2</exetype>
@@ -64,11 +64,15 @@ collides_with = "__any__";
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ortho_should_move</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>true</string>
+            <string>ortho_should_move = true;
+var other_ = instance_place(x, y, obj_ortho_dyn_auto_orienter);
+if (other_ != noone) {
+  if (collides_with == '__any__' || other_.collider_key == '__any__' || collides_with == other_.collider_key) {
+    scr_ortho_item_movement_do(other_.new_orientation);
+  }
+}
+
+</string>
           </argument>
         </arguments>
       </action>
@@ -87,31 +91,6 @@ collides_with = "__any__";
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_ortho_dyn_auto_orienter">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if (collides_with == '__any__' || other.collider_key == '__any__' || collides_with == other.collider_key) {
-    scr_ortho_item_movement_do(other.new_orientation);
-}
-</string>
-          </argument>
-        </arguments>
       </action>
     </event>
   </events>

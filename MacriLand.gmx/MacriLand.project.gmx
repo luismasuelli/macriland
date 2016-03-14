@@ -101,6 +101,14 @@
       <sprite>sprites\spr_Collider_Left</sprite>
       <sprite>sprites\spr_Collider_Right</sprite>
     </sprites>
+    <sprites name="Pad">
+      <sprite>sprites\spr_Pad4</sprite>
+      <sprite>sprites\spr_Pad4_Center</sprite>
+      <sprite>sprites\spr_Pad4_Left</sprite>
+      <sprite>sprites\spr_Pad4_Right</sprite>
+      <sprite>sprites\spr_Pad4_Top</sprite>
+      <sprite>sprites\spr_Pad4_Bottom</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\tiles</background>
@@ -209,16 +217,6 @@
     <room>rooms\level_08</room>
     <room>rooms\level_09</room>
     <room>rooms\level_10</room>
-    <room>rooms\level_11</room>
-    <room>rooms\level_12</room>
-    <room>rooms\level_13</room>
-    <room>rooms\level_14</room>
-    <room>rooms\level_15</room>
-    <room>rooms\level_16</room>
-    <room>rooms\level_17</room>
-    <room>rooms\level_18</room>
-    <room>rooms\level_19</room>
-    <room>rooms\level_20</room>
     <room>rooms\level_template</room>
     <room>rooms\game_over</room>
     <room>rooms\game_won</room>
