@@ -165,6 +165,7 @@
     <instance objName="obj_ortho_dyn_auto_orienter_down" x="192" y="64" name="inst_E4859E70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ortho_dyn_auto_orienter_up" x="96" y="96" name="inst_3542FC76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ortho_dyn_auto_orienter_up" x="448" y="96" name="inst_1F732946" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pad4_Handler" x="608" y="128" name="inst_A0DC97A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tiles" x="0" y="0" w="32" h="32" xo="32" yo="32" id="10000224" name="inst_44DF1927" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -85,6 +85,10 @@
         <sprite>sprites\spr_Camporist_Stand_Left</sprite>
         <sprite>sprites\spr_Camporist_Stand_Right</sprite>
       </sprites>
+      <sprites name="Cristina">
+        <sprite>sprites\spr_Cristina_Closed</sprite>
+        <sprite>sprites\spr_Cristina_Open</sprite>
+      </sprites>
     </sprites>
     <sprites name="End">
       <sprite>sprites\spr_Lost</sprite>
@@ -94,6 +98,7 @@
       <sprite>sprites\spr_Life</sprite>
       <sprite>sprites\spr_Opening</sprite>
       <sprite>sprites\spr_Instructions</sprite>
+      <sprite>sprites\spr_Fireball</sprite>
     </sprites>
     <sprites name="Collider">
       <sprite>sprites\spr_Collider_Up</sprite>
@@ -195,6 +200,8 @@
       <object>objects\obj_LeftGoal</object>
       <object>objects\obj_RightGoal</object>
       <object>objects\obj_Camporist</object>
+      <object>objects\obj_Cristina</object>
+      <object>objects\obj_Fireball</object>
     </objects>
     <objects name="Buttons">
       <object>objects\obj_Reset_Button</object>
@@ -203,7 +210,14 @@
       <object>objects\obj_PlayAgain_Button</object>
       <object>objects\obj_Button</object>
     </objects>
+    <objects name="Pad">
+      <object>objects\obj_Pad4_Handler</object>
+      <object>objects\obj_Pad4</object>
+    </objects>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\tml_Cristina</timeline>
+  </timelines>
   <rooms name="rooms">
     <room>rooms\game_start</room>
     <room>rooms\instructions</room>
