@@ -242,7 +242,14 @@ pad_view.visible = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var pressed_ = pressed;
+            <string>switch (os_type) {
+    case os_windows:
+    case os_linux:
+    case os_macosx:
+       return false;
+}
+
+var pressed_ = pressed;
 if (device_mouse_check_button_pressed(0, mb_left)) {
     pressed = true;
     pad_view.visible = true;

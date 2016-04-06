@@ -13,6 +13,7 @@
     <sound>sound\snd_Loop</sound>
     <sound>sound\snd_Applause</sound>
     <sound>sound\snd_Steps</sound>
+    <sound>sound\snd_Final_Loop</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Goal">
@@ -98,7 +99,8 @@
       <sprite>sprites\spr_Life</sprite>
       <sprite>sprites\spr_Opening</sprite>
       <sprite>sprites\spr_Instructions</sprite>
-      <sprite>sprites\spr_Fireball</sprite>
+      <sprite>sprites\spr_Constitucion</sprite>
+      <sprite>sprites\spr_Final</sprite>
     </sprites>
     <sprites name="Collider">
       <sprite>sprites\spr_Collider_Up</sprite>
@@ -135,6 +137,7 @@
       <script>scripts\scr_Macri_Collide_R_R.gml</script>
       <script>scripts\scr_Button_Init.gml</script>
       <script>scripts\scr_Play_Background.gml</script>
+      <script>scripts\scr_Play_Final_Background.gml</script>
       <script>scripts\scr_Macri_Moving.gml</script>
     </scripts>
     <scripts name="Core">
@@ -173,6 +176,7 @@
     <objects name="Core">
       <object>objects\obj_lives</object>
       <object>objects\obj_level</object>
+      <object>objects\obj_final_level</object>
       <object>objects\obj_ortho_map</object>
       <object>objects\obj_ortho_item</object>
       <object>objects\obj_ortho_dyn_item</object>
@@ -192,6 +196,7 @@
       <object>objects\obj_Death_Right</object>
       <object>objects\obj_Opening</object>
       <object>objects\obj_Instructions</object>
+      <object>objects\obj_Final</object>
     </objects>
     <objects name="MapObjects">
       <object>objects\obj_MacriL</object>
@@ -201,11 +206,12 @@
       <object>objects\obj_RightGoal</object>
       <object>objects\obj_Camporist</object>
       <object>objects\obj_Cristina</object>
-      <object>objects\obj_Fireball</object>
+      <object>objects\obj_Constitucion</object>
     </objects>
     <objects name="Buttons">
       <object>objects\obj_Reset_Button</object>
       <object>objects\obj_Continue_Button</object>
+      <object>objects\obj_Final_Button</object>
       <object>objects\obj_Play_Button</object>
       <object>objects\obj_PlayAgain_Button</object>
       <object>objects\obj_Button</object>
@@ -230,8 +236,8 @@
     <room>rooms\level_07</room>
     <room>rooms\level_08</room>
     <room>rooms\level_09</room>
+    <room>rooms\final</room>
     <room>rooms\level_10</room>
-    <room>rooms\level_template</room>
     <room>rooms\game_over</room>
     <room>rooms\game_won</room>
   </rooms>

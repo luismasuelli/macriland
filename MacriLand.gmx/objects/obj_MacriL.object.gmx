@@ -440,7 +440,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="obj_Fireball">
+    <event eventtype="4" ename="obj_Constitucion">
       <action>
         <libid>1</libid>
         <id>612</id>
